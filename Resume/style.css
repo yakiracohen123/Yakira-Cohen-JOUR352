@@ -6,27 +6,43 @@ BODY {
 }
 
 /*banner name at top*/
-h1{
+#name {
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
   font-size: 3em;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /*title*/
-strong {
+#title {
   color: #33485e;
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: : 0 auto;
+  margin-left: 0 auto;
+  margin-bottom: 0 auto;
 }
 
 /*section titles*/
-h2{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #ffffff;
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 /*job titles*/
@@ -36,19 +52,58 @@ h3{
 }
 
 /*job organization*/
-h4{
+.organization{
   font-weight: 400;
   font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /*job dates*/
-h5{
+.date{
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
+  margin-bottom: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
 /*contact info, skills, education*/
 li{
   font-size: 1em;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+
+.menu{
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  display:inline;
+
+
+#degrees {
+  margin-top: 5px;
+  margin-right: : 0 auto;
+  margin-left: 0 auto;
+  margin-bottom: 0 auto;
+}
+
+#do{
+  margin-top: 5px;
+  margin-right: : 0 auto;
+  margin-left: 0 auto;
+  margin-bottom: 0 auto;
+}
+
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
