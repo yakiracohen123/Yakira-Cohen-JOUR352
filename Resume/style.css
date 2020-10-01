@@ -25,13 +25,13 @@ BODY {
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
-  margin-right: : 0 auto;
-  margin-left: 0 auto;
-  margin-bottom: 0 auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 /*section titles*/
-.sectionheader{
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
@@ -46,64 +46,68 @@ BODY {
 }
 
 /*job titles*/
-h3{
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /*job organization*/
-.organization{
+.organization {
   font-weight: 400;
   font-size: 1.5em;
   font-size: 1.25em;
 }
 
 /*job dates*/
-.date{
+.date {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
   margin-top: 2px;
-  margin-bottom: 0 auto;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /*contact info, skills, education*/
-li{
-  font-size: 1em;
-}
 
-.description{
+.description {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-.menu{
-  margin: 0 auto;
-  padding: 0 auto;
+.menu {
+  margin: 0px;
+  padding: 0px;
   text-align: center;
-  display:inline;
+}
 
+.menu li {
+    display:inline;
+}
 
 #degrees {
   margin-top: 5px;
-  margin-right: : 0 auto;
-  margin-left: 0 auto;
-  margin-bottom: 0 auto;
+  margin-right: : 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
-#do{
+#do {
   margin-top: 5px;
-  margin-right: : 0 auto;
-  margin-left: 0 auto;
-  margin-bottom: 0 auto;
+  margin-right: : 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
-#container{
+#container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
