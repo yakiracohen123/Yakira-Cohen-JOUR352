@@ -42,5 +42,10 @@ blockquote{
 }
 
 .photo {
-  width: 50px;
+  width: 500px;
+}
+
+.graphictext {
+  color: gray;
+  font-style: italic;
 }
