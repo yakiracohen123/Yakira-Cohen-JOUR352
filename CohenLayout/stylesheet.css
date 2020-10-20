@@ -1,0 +1,46 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#masthead {
+  padding: 2em 0;
+  font-style: oblique;
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 13px;
+
+}
+
+blockquote{
+  float: Center;
+  font: 24px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: blue;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+  padding: 13px;
+}
+
+.photo {
+  width: 50px;
+}
