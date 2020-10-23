@@ -61,3 +61,27 @@
   font-size: 20px;
 
 }
+
+.navbar {
+  font-family: Raanana, serif;
+}
+
+#footer {
+  font-family: Raanana, serif;
+  color: #356886;
+  text-align: center;
+}
+
+i.fab {
+  color: #356886;
+  align: center;
+  width: 50px;
+  text-align: center;
+}
+
+i.fas {
+  color: #356886;
+  align: center;
+  width: 50px;
+  text-align: center;
+}

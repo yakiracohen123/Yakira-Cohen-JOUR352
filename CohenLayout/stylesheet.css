@@ -28,16 +28,16 @@ body {
 
 }
 
-blockquote{
+blockquote {
   float: Center;
-  font: 24px normal helvetica, sans-serif;
+  font: 24px normal helvetica, arial, sans-serif;
   font-style: italic;
   margin-top: 15px;
   margin-bottom: 15px;
   color: blue;
   margin-left: 50px;
   padding-left: 15px;
-  border-left: 4px solid #ccc;
+  border-left: 4px solid red;
   padding: 13px;
 }
 
