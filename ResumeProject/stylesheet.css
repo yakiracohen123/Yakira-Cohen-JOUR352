@@ -1,3 +1,8 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
 .sectionheader {
   color: #356886;
   text-align: center;
@@ -84,4 +89,10 @@ i.fas {
   align: center;
   width: 50px;
   text-align: center;
+}
+
+#pagetopper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
