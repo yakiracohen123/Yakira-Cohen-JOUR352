@@ -1,0 +1,132 @@
+#headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#byline {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-family: Georgia, serif;
+  line-height: 100%;
+  font-size: 1em;
+}
+
+.chapter-headline {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figcaption {
+  color: gray;
+  font-style: italic;
+}
+
+.footer {
+  font-family: Georgia, serif;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.row {
+  padding: 50px;
+  font-family: Georgia, serif;
+  line-height: 100%;
+  font-size: 1em;
+}
+
+/* Top Nav / Top Nat */
+
+.nav-top {
+  color: #fff;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.red {
+  color: #f23030;
+}
+
+/* hero/splash area */
+
+.hero.container {
+  position:relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-image {
+  width:100%;
+}
+
+.overlay {
+  position:absolute;
+  top:20%;
+  width:100%;
+  background-color:#000;
+  opacity: .7;
+}
+
+.hero-hed {
+  font-family: 'Playfair Display', serif;
+  font-size:6em;
+  color:#fff;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.hero-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size:.25em;
+}
+
+/*Pull Quotes */
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  color: #f23030;
+  font-size: 3em;
+  font-weight: 700;
+  text-align:left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote-attribution {
+  font-size: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align:left;
+  color: #000;
+}
+
+/*Close Quotes*/
+
+/* Media Queries */
+
+@media (max-width: 700px) {
+  .hero-hed {
+    font-size: 1.5em;
+  }
+}
