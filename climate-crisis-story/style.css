@@ -1,27 +1,37 @@
 #headline {
-  font-size: 3em;
+  font-size: 2.7em;
   font-weight: 700;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Georgia', serif;
+  padding: 10px;
+  font-style: italic;
+  border-style: solid;
+  background-color: #383838;
+  color: #fff;
 }
 
 #byline {
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  text-align: center;
 }
 
 p {
-  font-family: Georgia, serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 100%;
   font-size: 1em;
 }
 
+.caption {
+  font-size:1em;
+  padding-bottom: 5px;
+  font-style: italic;
+  color: gray;
+}
+
 .chapter-headline {
-  font-size: 3em;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-family: 'Georgia', serif;
+  color: #f23030;
 }
 
 figure {
@@ -37,7 +47,7 @@ figcaption {
 }
 
 .footer {
-  font-family: Georgia, serif;
+  font-family: 'Georgia', serif;
   text-align: center;
   padding: 20px;
   background-color: black;
@@ -46,7 +56,7 @@ figcaption {
 
 .row {
   padding: 50px;
-  font-family: Georgia, serif;
+  font-family: 'Georgia', serif;
   line-height: 100%;
   font-size: 1em;
 }
@@ -78,24 +88,35 @@ figcaption {
 
 .overlay {
   position:absolute;
-  top:20%;
-  width:100%;
-  background-color:#000;
-  opacity: .7;
+  top: 50%;
+  left: 50%;
+  opacity: .8;
+  width:600px;
+  height:400px;
+  margin-left: -300px;
+  margin-top: -200px;
+  background-color: #f23030;
+  border-style: double;
+  border-color: #fff;
+  border-width: medium;
+  border-radius: 10%;
 }
 
+
 .hero-hed {
-  font-family: 'Playfair Display', serif;
-  font-size:6em;
+  font-family: 'Georgia', serif;
+  font-size: 5em;
   color:#fff;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 10px;
+  padding-top: 10%;
+  text-transform: uppercase;
 }
 
 .hero-sub {
   font-family: 'Montserrat', sans-serif;
   font-size:.25em;
+  text-transform: lowercase;
 }
 
 /*Pull Quotes */
@@ -104,13 +125,17 @@ figcaption {
   font-family: 'Montserrat', sans-serif;
   color: #f23030;
   font-size: 3em;
-  font-weight: 700;
   text-align:left;
   padding: 15px 0 15px 0;
-  border-top: 1px solid #f23030;
-  border-bottom: 1px solid #f23030;
   margin-top: 20px;
   margin-bottom: 20px;
+  float: Center;
+  font-style: italic;
+  margin-right: 50px;
+  padding-right: 15px;
+  border-right: 4px solid #f23030;
+  border-left: 4px solid #f23030;
+  padding: 13px;
 }
 
 .quote-attribution {
@@ -120,6 +145,22 @@ figcaption {
   text-align:left;
   color: #000;
 }
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
 
 /*Close Quotes*/
 
