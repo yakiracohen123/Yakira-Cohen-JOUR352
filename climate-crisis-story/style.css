@@ -28,6 +28,10 @@ p {
   color: gray;
 }
 
+.caption2 {
+  text-align: center;
+}
+
 .chapter-headline {
   font-size: 2.5em;
   font-family: 'Georgia', serif;
@@ -47,11 +51,13 @@ figcaption {
 }
 
 .footer {
-  font-family: 'Georgia', serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 20px;
-  background-color: black;
-  color: white;
+  background-color: #f23030;
+  color: #000;
+  font-weight: 500;
+  opacity: .7;
 }
 
 .row {
@@ -110,13 +116,11 @@ figcaption {
   margin: 0 auto;
   text-align: center;
   padding-top: 10%;
-  text-transform: uppercase;
 }
 
 .hero-sub {
   font-family: 'Montserrat', sans-serif;
   font-size:.25em;
-  text-transform: lowercase;
 }
 
 /*Pull Quotes */
@@ -146,6 +150,29 @@ figcaption {
   color: #000;
 }
 
+.sidebar {
+  border-top: 4px solid #f23030;
+  border-bottom: 4px solid #f23030;
+}
+
+
+.sidebar-head {
+  background-color: #f23030;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  text-align:center;
+  border-radius: 40%;
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  margin: 0 auto;
+}
+
 /* unvisited link */
 a:link {
   color: blue;
@@ -159,6 +186,40 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: hotpink;
+}
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #f23030;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  text-align:center;
+  border-radius: 10%;
+
+
+
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  text-align: center;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 
