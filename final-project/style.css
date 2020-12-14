@@ -76,11 +76,12 @@
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  text-align: center;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
-  line-height: 100%;
+  line-height: 150%;
   font-size: 1em;
 }
 
@@ -149,7 +150,7 @@ figcaption {
 }
 
 .footer {
-  font-family: Raanana, serif;
+  font-family: 'Montserrat', serif;
   background-color: #3C5E81;
   text-align: center;
   background-color: #353A3F;
@@ -176,6 +177,7 @@ i.fas {
   text-align: center;
 }
 
+
 /* unvisited link */
 a:link {
   color: #ffd300;
@@ -183,7 +185,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #fff;
+  color: #EE0000;
 }
 
 /* mouse over link */
